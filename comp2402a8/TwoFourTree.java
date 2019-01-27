@@ -110,7 +110,7 @@ public class TwoFourTree extends StringSSet implements LevelOrderTraversal{
 	}
 
 	@Override
-	public boolean remove(String x) {
+/*	public boolean remove(String x) {
 		String f = find(x);
 		if (f == null || f.compareTo(x) != 0) {
             System.out.printf("removeNotFound f= %s\n", f);
@@ -149,7 +149,7 @@ public class TwoFourTree extends StringSSet implements LevelOrderTraversal{
 //	    for (String i : node.data)
 //	        System.out.printf("!!! %s ",i);
 	}
-
+*/
 	@Override
 	public void clear() {
 		this.r = NIL;
